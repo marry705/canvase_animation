@@ -2,6 +2,18 @@
 <html>
   <head>
     <title>Canvas example</title>
+    <script type="text/javascript">
+        function draw() {
+          const canvas = document.querySelector('canvas');
+          canvas.width = window.innerWidth;
+          canvas.height = window.innerHeight;
+          const c = canvas.getContext('2d');
+          const circlesCount = 800;
+          const maxRadius = 40;
+          const circleArray = [];
+          const colorArray = ['#046975','#2EA1D4','#3BCC2A','#FFDF59','#FF1D47'];
+        }
+    </script>
     <style type="text/css">
       canvas { border: 1px solid black; 
       width: 100%;
